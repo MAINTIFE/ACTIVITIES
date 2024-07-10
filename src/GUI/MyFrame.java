@@ -56,6 +56,7 @@ class MyFrame
     // with default values.
     public MyFrame()
     {
+//        res= new JLabel("");
         setTitle("Registration Form");
         setBounds(300, 90, 900, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -259,6 +260,8 @@ class Registration {
 
     public static void main(String[] args) throws Exception
     {
+
         MyFrame f = new MyFrame();
+        f.setVisible(true);
     }
 }

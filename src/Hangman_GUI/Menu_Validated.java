@@ -1,4 +1,6 @@
-package Hangman_GUI;
+package game.src.Hangman_GUI;
+
+import Hangman_GUI.GameWindow;
 
 import javax.swing.*;
 import java.awt.*;
@@ -67,7 +69,5 @@ public class Menu_Validated extends JFrame implements ActionListener {
         c.gridy = 3;
         c.fill = c.HORIZONTAL;
         add(option3, c);
-
-
     }
 }

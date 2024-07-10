@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Hangman_validated {
-    String word[] = {"japan", "qatar", "syria", "mongolia", "bahrain", "india"};
+    String word[] = {"Nigeria","japan", "qatar", "syria", "mongolia", "bahrain", "india"};
 
     public void showMenu() {
         int option;

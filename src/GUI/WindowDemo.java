@@ -1,4 +1,4 @@
-package gui;
+package GUI;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -6,13 +6,11 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.WindowConstants;
 
-public class WindowDemo extends WindowAdapter
-{
+public class WindowDemo extends WindowAdapter {
 
     JFrame jf;
 
-    public WindowDemo()
-    {
+    public WindowDemo() {
         jf = new JFrame("Window Event Demo");
         jf.setSize(300, 300);
         jf.setVisible(true);
